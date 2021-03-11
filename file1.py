@@ -1,0 +1,1 @@
+print("file one __name __is set to: {}".format(__name__))
