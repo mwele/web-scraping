@@ -1,0 +1,19 @@
+import itertools
+counter=itertools.count(start=5,step=5)
+#x=['iloooooo']
+print(next(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
+data=[100,1001,17717,18881]
+daily_data=list(zip(itertools.count(),data))
+print(daily_data)
+counter=itertools.cycle([1,2,3])
+print(next(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
+print(next(counter))
