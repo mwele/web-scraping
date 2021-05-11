@@ -1,0 +1,2 @@
+from ChapterNote import Note 
+
